@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="@dimen/_10sdp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivThumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:contentDescription="@string/content"
+            android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_below="@+id/ivThumbnail">
+
+                <ImageButton
+                    android:id="@+id/delete"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_baseline_save_alt_24"
+                    android:gravity="center"
+                    android:backgroundTint="@android:color/transparent"
+                    android:contentDescription="@string/to" />
+
+                <ImageButton
+                    android:id="@+id/share"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_baseline_share_24"
+
+                    android:gravity="center"
+                    android:backgroundTint="@android:color/transparent"
+                    android:contentDescription="@string/tod" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

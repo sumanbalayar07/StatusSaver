@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/textclose"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:text="How To Use?"
+        android:layout_margin="@dimen/_20sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:text="@string/txt4"
+        android:layout_margin="@dimen/_19sdp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:text="@string/txt1"
+        android:layout_margin="@dimen/_19sdp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:text="@string/txt2"
+        android:layout_margin="@dimen/_19sdp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:text="@string/txt3"
+        android:layout_margin="@dimen/_19sdp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:text="@string/txt5"
+        android:layout_margin="@dimen/_19sdp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </TextView>
+
+
+</LinearLayout>

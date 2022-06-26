@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Status Saver</string>
+    <string name="image">IMAGES</string>
+    <string name="video">VIDEOS</string>
+    <string name="save">SAVED FILES</string>
+    <string name="no_files_found"> <b>No images available now.</b></string>
+    <string name="no_files"> <b>No videos available now.</b></string>
+    <string name="cant_find_whatsapp_dir">Cannot Find Whatsapp directory</string>
+    <string name="allow_permission">allow permission</string>
+    <string name="please_allow_permission">Please allow permission</string>
+    <string name="exit">Exit</string>
+    <string name="allow">allow</string>
+    <string name="appId">ca-app-pub-7545086986980596~6717900446</string>
+    <string name="unitId">ca-app-pub-7545086986980596/2012368674</string>
+    <string name="privacy">Welcome to WhatsApp Status Saver. This App is made to save whatsapp statuses such as images, videos and many more. We may access your data to provide better user experience but, you can deny to it. Thanks.\n\nAlso you can use our other Ad-Free apps such as Meta Music Player, Calculator, Weather and many more.\n\nBy Balayar.DEV</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="by_balayar_dev">By Balayar </string>
+    <string name="todo">to</string>
+    <string name="share_app">Share App</string>
+    <string name="whatsapp" />
+    <string name="contact_us">Contact Us </string>
+    <string name="tod">TODO</string>
+    <string name="to">TODO</string>
+    <string name="content">TODO</string>
+    <string name="usage_guide">Usage Guide</string>
+    <string name="txt1"> 2\tFirst see your Recently Updated Statuses in Whatsapp. Watch complete Status. </string>
+    <string name="txt2"> 3\tYou can save both Whatsapp and \t\t Whatsapp Business Statuses From Side Menu</string>
+    <string name="txt3"> 4\tCome back to Status Saver App and Refresh. Enjoy:)</string>
+    <string name="txt4"> 1\tTurn Display hidden Files On in your File Manager</string>
+    <string name="txt5"> 5\tYou will Find Saved Statuses in your SavedStatus Folder in Storage</string>
+
+</resources>
